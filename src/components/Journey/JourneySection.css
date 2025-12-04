@@ -1,0 +1,49 @@
+.journey-section {
+    padding-block: var(--section-block-space);
+}
+
+.journey-section .site-common-content {
+    gap: var(--site-common-content);
+}
+
+.journey-section .site-common-content p {
+    font-size: var(--site-title-h3);
+}
+
+.journey-section .section-title {
+    font-weight: 700;
+}
+
+.journey-section h2 {
+    margin-bottom: var(--section-title-mb);
+    text-align: center;
+}
+
+.journey-row {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: var(--row-gap);
+}
+
+.journey-row .vertical-line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 360px;
+}
+
+
+.journey-row .flex-1>.site-common-content {
+    margin-bottom: var(--col-inner-content-gap);
+}
+
+.pass-year {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pass-year p+p {
+    font-weight: 700;
+}

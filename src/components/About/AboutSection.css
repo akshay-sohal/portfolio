@@ -1,0 +1,14 @@
+.about-section {
+    padding-block: var(--section-block-space);
+}
+
+.about-row {
+    display: flex;
+    gap: var(--row-gap);
+}
+
+.my-signature {
+    max-width: 294px;
+    width: 100%;
+    margin-top: 40px;
+}

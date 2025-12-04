@@ -1,0 +1,34 @@
+.experience-row {
+    display: flex;
+    gap: var(--row-gap);
+    align-items: center;
+}
+
+.experience-row+.experience-row {
+    margin-top: var(--row-row-gap);
+    flex-direction: row-reverse;
+}
+
+.exp-content .list {
+    margin-top: var(--col-inner-content-gap);
+}
+
+.work-exp {
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--site-title-h3);
+}
+
+.experience-row .flex-1:first-child {
+    overflow: hidden;
+    border-radius: var(--border-radius);
+}
+
+.experience-row img {
+    transform: scale(1);
+    transition: all 0.3s ease-in;
+}
+
+.experience-row img:hover {
+    transform: scale(1.03);
+}

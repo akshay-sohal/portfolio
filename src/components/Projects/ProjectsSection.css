@@ -1,0 +1,33 @@
+.projects-section {
+    padding-block: var(--section-block-space);
+}
+
+.projects-section .site-title-h3 {
+    line-height: 36px;
+}
+
+.projects-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--row-gap);
+}
+
+.projects-row+.projects-row {
+    flex-direction: row-reverse;
+    margin-top: var(--row-row-gap);
+}
+
+.projects-row .flex-1:first-child {
+    overflow: hidden;
+    border-radius: var(--border-radius);
+}
+
+.projects-row img {
+    transform: scale(1);
+    transition: all 0.3s ease-in;
+}
+
+.projects-row img:hover {
+    transform: scale(1.03);
+}

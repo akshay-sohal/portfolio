@@ -1,0 +1,16 @@
+.hero-section {
+    padding-block: var(--hero-section-block-spacing);
+}
+
+.hero-img {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    max-width: 900px;
+    width: 100%;
+}
+
+.hero-content {
+    max-width: 894px;
+    width: 100%;
+}

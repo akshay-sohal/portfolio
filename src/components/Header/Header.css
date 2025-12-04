@@ -1,0 +1,62 @@
+.header {
+    position: relative;
+    z-index: 1;
+}
+
+.header-logo {
+    color: var(--black-text);
+}
+
+.header-bar,
+.nav-bar,
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar {
+    margin-left: auto;
+}
+
+.header-bar {
+    justify-content: space-between;
+    position: relative;
+    padding-top: 40px;
+}
+
+.header-bar::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: var(--black-color);
+    left: 0;
+    bottom: 0;
+}
+
+.menu {
+    gap: 48px;
+}
+
+.menu-icn, .cross-icn {
+    display: none;
+    cursor: pointer;
+}
+
+.menu-icn {
+    width: 32px;
+    height: 32px;
+}
+
+.cross-icn {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 16px;
+    right: 24px;
+}
+
+.menu a {
+    font-weight: 500;
+    font-size: var(--menu-text);
+}

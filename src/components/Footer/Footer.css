@@ -1,0 +1,116 @@
+.footer-section {
+    padding-bottom: 64px;
+}
+
+.footer-section .site-common-content {
+    text-align: center;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 72px;
+    gap: var(--row-gap);
+}
+
+.social-info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 32px;
+}
+
+.social-info::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--black-color);
+}
+
+.social-info a {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--black-color);
+    transition: all 0.3s ease-in;
+}
+
+.social-info a:hover {
+    color: var(--brand-color);
+}
+
+.social-info+.social-info {
+    margin-top: 48px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    margin-top: 32px;
+}
+
+.social-icons img {
+    transform: rotateY(0deg);
+    transition: all 0.4s ease-in;
+}
+
+.social-icons img:hover {
+    transform: rotateY(360deg);
+}
+
+.footer-right-col {
+    max-width: var(--form-width);
+    width: 100%;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact-form label {
+    font-size: 24px;
+    font-weight: 700;
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+input[type="text"], input[type="email"], input[type="submit"], textarea {
+    height: var(--form-height);
+    border-radius: var(--input-border-radius);
+    font-size: var(--body-text);
+    border: none;
+    outline: none;
+}
+
+input[type="text"], input[type="email"], textarea {
+    background-color: var(--white-color);
+    width: 100%;
+    padding: 20px;
+}
+
+input[type="submit"] {
+    background-color: var(--brand-color);
+    color: var(--white-color);
+    font-size: 32px;
+    font-weight: 700;
+    width: var(--submit-bttn-width);
+    font-family: var(--site-font);
+    transition: all 0.3s ease-in;
+}
+
+input[type="submit"]:hover {
+     background-color: var(--black-color);
+}
+
+.section-divider {
+    width: 100%;
+    height: 1px;
+    background-color: var(--black-color);
+}
