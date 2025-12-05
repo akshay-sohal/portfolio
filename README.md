@@ -12,3 +12,9 @@ This is my **responsive portfolio website**, built using **React, HTML, and CSS*
 - React
 - HTML5
 - CSS3 (Flexbox & Grid)
+
+## Live Demo
+https://cbm-portfolio-kp.netlify.app/
+
+## GitHub Repository
+https://github.com/akshay-sohal/portfolio

@@ -33,9 +33,7 @@ export default function Header() {
               <li><a href="#testimonial-sec" className="text-white" onClick={closeMenu}>Testimonials</a></li>
             </ul>
 
-            <a href="#contact-sec" className="cta-btn" onClick={closeMenu}>
-              Contact
-            </a>
+            <a href="#contact-sec" className="cta-btn">Contact</a>
           </nav>
 
           <img
